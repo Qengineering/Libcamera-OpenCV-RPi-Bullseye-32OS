@@ -1,6 +1,6 @@
 #include <opencv2/opencv.hpp>
 
-/// For the Raspberry Pi 64-bit Bullseye OS
+/// For the Raspberry Pi 32-bit Bullseye OS
 
 std::string gstreamer_pipeline(int capture_width, int capture_height, int framerate, int display_width, int display_height) {
     return
